@@ -1,0 +1,85 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg');
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+  
+  section {
+    margin-inline: auto;
+    justify-content: space-around;
+    max-width: 1227px;
+    display: flex;
+  }
+
+.container {
+  flex-basis: 50%;
+}
+.container> img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+ 
+.logo{
+  margin-bottom: 40px;
+}
+  .text-box{
+    margin-left: 38px;
+    flex-basis: 40%;
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+  }
+  .text-box >h1{
+    font-size: 40px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+  .text-box >p {
+    line-height: 1.5rem;
+    opacity: 0.8;
+    color : white;
+    font-family: "Poppins", sans-serif;
+  }
+  .R-button {
+    font-weight: 200;
+    cursor: pointer;
+    box-shadow: outset -1px 4px 12px 0px #4c4c4c;
+    border: none;
+    color: hsl(257, 40%, 49%);
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+  }
+  .R-button:hover {
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+  }
+  .contact {
+cursor: pointer;
+display: flex;
+justify-content: end;
+color: white;
+padding: 40px;
+gap: 10px;
+}
+.fa-brands {
+padding: 10px;
+}
+.contact a {
+
+border-radius: 80%;
+border: 1px solid white;
+text-decoration: none;
+color: white;
+}
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(220, 20%, 94%); }
